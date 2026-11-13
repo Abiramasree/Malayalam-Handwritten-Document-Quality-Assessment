@@ -1,0 +1,23 @@
+
+# Dataset folders - keep locally
+Average/
+Good/
+Poor/
+train/
+test/
+validation/
+preprocess_dataset/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+# Exclude experimental models
+*.keras
+
+# Include selected ResNet50 models
+!resnet50_document_quality_model.keras
+!resnet50_finetuned_document_quality_model.keras
